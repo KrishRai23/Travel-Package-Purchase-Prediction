@@ -1,43 +1,4 @@
 # Travel-Package-Purchase-Prediction
-Table of contents
-Libraries
-Read and Understand Data
-Data Preprocessing
-Exploratory Data Analysis
-Univariate Analysis
-Bivariate Analysis
-Insights based on EDA
-Model Building-Ensemble Technique
-Random Forest
-Gradient Boosting
-Adaboost
-Conclusion
-Dataset Introduction
-Customer details:
+The dataset contains detailed customer and interaction data aimed at understanding purchasing behavior for a newly introduced travel package. Customer details include demographic and lifestyle factors such as age, gender, occupation, marital status, and income, alongside variables like CityTier, which reflects the development level of the customer’s city, and travel-specific preferences like preferred hotel property rating, number of trips, and number of persons or children planning to travel with them. Additionally, it captures ownership data such as whether the customer has a passport or owns a car. Interaction data focuses on the sales process, including the product pitched, pitch satisfaction score, duration of the sales pitch, and the number of follow-ups conducted.  
 
-CustomerID: Unique customer ID
-ProdTaken: Whether the customer has purchased a package or not
-Age: Age of customer
-TypeofContact: How customer was contacted (Company Invited or Self Inquiry)
-CityTier: City tier depends on the development of a city, population, facilities, and living standards. The categories are ordered i.e. Tier 1 > Tier 2 > Tier 3
-Occupation: Occupation of customer
-Gender: Gender of customer
-NumberOfPersonVisiting: Total number of persons planning to take the trip with the customer
-PreferredPropertyStar: Preferred hotel property rating by customer
-MaritalStatus: Marital status of customer
-NumberOfTrips: Average number of trips in a year by customer
-Passport: The customer has a passport or not
-OwnCar: Whether the customers own a car or not
-NumberOfChildrenVisiting: Total number of children with age less than 5 planning to take the trip with the customer
-Designation: Designation of the customer in the current organization
-MonthlyIncome: Gross monthly income of the customer
-Customer interaction data:
-
-PitchSatisfactionScore: Sales pitch satisfaction score
-ProductPitched: Product pitched by the salesperson
-NumberOfFollowups: Total number of follow-ups has been done by the salesperson after the sales pitch
-DurationOfPitch: Duration of the pitch by a salesperson to the customer
-Objective of the Project
-To predict which customer is more likely to purchase the newly introduced travel package
-Which variables are most significant.
-Which segment of customers should be targeted more.
+The primary objective of the project is to predict which customers are more likely to purchase the travel package based on these variables. This involves identifying the most significant features influencing purchasing behavior and determining patterns or customer segments that exhibit a higher likelihood of conversion. Insights derived from the analysis can help in optimizing marketing strategies, enabling targeted campaigns toward high-potential customer segments, and improving overall sales efficiency.
